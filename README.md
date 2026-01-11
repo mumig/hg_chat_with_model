@@ -46,10 +46,17 @@ The output CSV:
 ## Project Structure
 
 ```
-hg_chat_with_model/
-├── __main__.py              # Entry point and pipeline orchestration
-├── hg_api_calls.py      # Asynchronous Hugging Face chat requests
-├── data_processing.py   # CSV input and output processing
+.
+├── src/
+│   └── hg_chat_with_model/      
+        ├── __main__.py          # Entry point and pipeline orchestration
+        ├── hg_api_calls.py      # Asynchronous Hugging Face chat requests
+        └── data_processing.py   # CSV input and output processing
+├── tests/                       
+├── .gitignore
+├── poetry.lock
+├── pyproject.toml               # Depenedcies
+└── README.md
 ```
 
 ---
