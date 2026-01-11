@@ -1,4 +1,3 @@
-````markdown
 # hg_chat_with_model
 
 A small educational Python project for **asynchronous chat inference** using Hugging Face models.
