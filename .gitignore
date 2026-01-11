@@ -1,0 +1,10 @@
+# Secrets
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]  # *.pyc, *.pyo, *.pyd
+*.pyd
+
+# Data files
+*.csv
