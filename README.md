@@ -66,7 +66,6 @@ The output CSV:
 ```bash
 poetry run python -m src.hg_chat_with_model
 ```
-Dependencies are defined in `pyproject.toml`.
 
 ---
 
