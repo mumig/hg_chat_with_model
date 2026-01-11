@@ -17,9 +17,9 @@ The project reads user queries from a CSV file, sends them concurrently to a cha
 
 ## Configuration
 
-The application is configured via environment variables:
+The application is configured via environment variables (.env file):
 
-```env
+```
 hg_token=YOUR_HUGGINGFACE_TOKEN
 model=HuggingFaceModelName
 busket_file_name=input.csv
@@ -47,7 +47,7 @@ The output CSV:
 
 ```
 hg_chat_with_model/
-├── main.py              # Entry point and pipeline orchestration
+├── __main__.py              # Entry point and pipeline orchestration
 ├── hg_api_calls.py      # Asynchronous Hugging Face chat requests
 ├── data_processing.py   # CSV input and output processing
 ```
@@ -67,5 +67,3 @@ poetry run python -m src.hg_chat_with_model
 ## Notes
 
 * Each query is sent as a single user message (no conversation history).
-
-```
