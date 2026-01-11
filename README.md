@@ -17,7 +17,7 @@ The project reads user queries from a CSV file, sends them concurrently to a cha
 
 ## Configuration
 
-The application is configured via environment variables (.env file):
+The application is configured via environment variables (`.env` file):
 
 ```
 hg_token=YOUR_HUGGINGFACE_TOKEN
@@ -52,8 +52,6 @@ hg_chat_with_model/
 ├── data_processing.py   # CSV input and output processing
 ```
 
-Dependencies are defined in `pyproject.toml`.
-
 ---
 
 ## Run
@@ -61,6 +59,7 @@ Dependencies are defined in `pyproject.toml`.
 ```bash
 poetry run python -m src.hg_chat_with_model
 ```
+Dependencies are defined in `pyproject.toml`.
 
 ---
 
